@@ -30,7 +30,6 @@ body {
     width: 434px;
     background-color: white;
     flex-direction: column;
-    position: relative;
 }
 .account_div {
     display: flex;
@@ -82,6 +81,7 @@ body {
     display: flex;
     gap: 4px;
 }
+
 .input {
     width: 432.171px;
     height: 60px;
@@ -89,14 +89,21 @@ body {
     border-radius: 5px;
     font-family: "Poppins", sans-serif;
 }
+.input1 {
+    width: 432.171px;
+    height: 60px;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./icons/akar-icons_eye-closed.svg);
+    background-repeat: no-repeat;
+    background-position-x: 393px;
+    background-position-y: 17px;
+}
 .snow {
     color: red;
 }
-.eye_icon {
-    position: absolute;
-    top: 441px;
-    right: 20px;
-}
+
 .last_div {
     height: 500px;
     width: auto;
@@ -107,6 +114,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .submit {
     height: auto;
     width: 433px;
